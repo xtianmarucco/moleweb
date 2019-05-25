@@ -1,0 +1,612 @@
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["main"],{
+
+/***/ "./node_modules/webpack/hot sync ^\\.\\/log$":
+/*!*************************************************!*\
+  !*** (webpack)/hot sync nonrecursive ^\.\/log$ ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var map = {
+	"./log": "./node_modules/webpack/hot/log.js"
+};
+
+
+function webpackContext(req) {
+	var id = webpackContextResolve(req);
+	return __webpack_require__(id);
+}
+function webpackContextResolve(req) {
+	var id = map[req];
+	if(!(id + 1)) { // check for number or string
+		var e = new Error("Cannot find module '" + req + "'");
+		e.code = 'MODULE_NOT_FOUND';
+		throw e;
+	}
+	return id;
+}
+webpackContext.keys = function webpackContextKeys() {
+	return Object.keys(map);
+};
+webpackContext.resolve = webpackContextResolve;
+module.exports = webpackContext;
+webpackContext.id = "./node_modules/webpack/hot sync ^\\.\\/log$";
+
+/***/ }),
+
+/***/ "./src/$$_lazy_route_resource lazy recursive":
+/*!**********************************************************!*\
+  !*** ./src/$$_lazy_route_resource lazy namespace object ***!
+  \**********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+function webpackEmptyAsyncContext(req) {
+	// Here Promise.resolve().then() is used instead of new Promise() to prevent
+	// uncaught exception popping up in devtools
+	return Promise.resolve().then(function() {
+		var e = new Error("Cannot find module '" + req + "'");
+		e.code = 'MODULE_NOT_FOUND';
+		throw e;
+	});
+}
+webpackEmptyAsyncContext.keys = function() { return []; };
+webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
+module.exports = webpackEmptyAsyncContext;
+webpackEmptyAsyncContext.id = "./src/$$_lazy_route_resource lazy recursive";
+
+/***/ }),
+
+/***/ "./src/app/app-routing.module.ts":
+/*!***************************************!*\
+  !*** ./src/app/app-routing.module.ts ***!
+  \***************************************/
+/*! exports provided: AppRoutingModule */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppRoutingModule", function() { return AppRoutingModule; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
+
+
+
+var routes = [];
+var AppRoutingModule = /** @class */ (function () {
+    function AppRoutingModule() {
+    }
+    AppRoutingModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"])({
+            imports: [_angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterModule"].forRoot(routes)],
+            exports: [_angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterModule"]]
+        })
+    ], AppRoutingModule);
+    return AppRoutingModule;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/app.component.css":
+/*!***********************************!*\
+  !*** ./src/app/app.component.css ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2FwcC5jb21wb25lbnQuY3NzIn0= */"
+
+/***/ }),
+
+/***/ "./src/app/app.component.html":
+/*!************************************!*\
+  !*** ./src/app/app.component.html ***!
+  \************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<app-header></app-header>\n<app-banner></app-banner>\n<app-about></app-about>\n<app-services></app-services>\n<app-contact></app-contact>\n<app-footer></app-footer>"
+
+/***/ }),
+
+/***/ "./src/app/app.component.ts":
+/*!**********************************!*\
+  !*** ./src/app/app.component.ts ***!
+  \**********************************/
+/*! exports provided: AppComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppComponent", function() { return AppComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+
+
+var AppComponent = /** @class */ (function () {
+    function AppComponent() {
+        this.title = 'moleweb';
+    }
+    AppComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+            selector: 'app-root',
+            template: __webpack_require__(/*! ./app.component.html */ "./src/app/app.component.html"),
+            styles: [__webpack_require__(/*! ./app.component.css */ "./src/app/app.component.css")]
+        })
+    ], AppComponent);
+    return AppComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/app.module.ts":
+/*!*******************************!*\
+  !*** ./src/app/app.module.ts ***!
+  \*******************************/
+/*! exports provided: AppModule */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppModule", function() { return AppModule; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/platform-browser */ "./node_modules/@angular/platform-browser/fesm5/platform-browser.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _app_routing_module__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./app-routing.module */ "./src/app/app-routing.module.ts");
+/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
+/* harmony import */ var _shared_header_header_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./shared/header/header.component */ "./src/app/shared/header/header.component.ts");
+/* harmony import */ var _shared_footer_footer_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./shared/footer/footer.component */ "./src/app/shared/footer/footer.component.ts");
+/* harmony import */ var _pages_about_about_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./pages/about/about.component */ "./src/app/pages/about/about.component.ts");
+/* harmony import */ var _pages_banner_banner_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./pages/banner/banner.component */ "./src/app/pages/banner/banner.component.ts");
+/* harmony import */ var _pages_contact_contact_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./pages/contact/contact.component */ "./src/app/pages/contact/contact.component.ts");
+/* harmony import */ var _pages_services_services_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./pages/services/services.component */ "./src/app/pages/services/services.component.ts");
+
+
+
+
+
+
+
+
+
+
+
+var AppModule = /** @class */ (function () {
+    function AppModule() {
+    }
+    AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["NgModule"])({
+            declarations: [
+                _app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"],
+                _shared_header_header_component__WEBPACK_IMPORTED_MODULE_5__["HeaderComponent"],
+                _shared_footer_footer_component__WEBPACK_IMPORTED_MODULE_6__["FooterComponent"],
+                _pages_about_about_component__WEBPACK_IMPORTED_MODULE_7__["AboutComponent"],
+                _pages_banner_banner_component__WEBPACK_IMPORTED_MODULE_8__["BannerComponent"],
+                _pages_contact_contact_component__WEBPACK_IMPORTED_MODULE_9__["ContactComponent"],
+                _pages_services_services_component__WEBPACK_IMPORTED_MODULE_10__["ServicesComponent"]
+            ],
+            imports: [
+                _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"],
+                _app_routing_module__WEBPACK_IMPORTED_MODULE_3__["AppRoutingModule"]
+            ],
+            providers: [],
+            bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"]]
+        })
+    ], AppModule);
+    return AppModule;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/pages/about/about.component.css":
+/*!*************************************************!*\
+  !*** ./src/app/pages/about/about.component.css ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = ".beating-btn2{\r\n\r\n    -webkit-animation: beat .65s infinite alternate;\r\n\r\n            animation: beat .65s infinite alternate;\r\n\t-webkit-transform-origin: center;\r\n\t        transform-origin: center;\r\n}\r\n@-webkit-keyframes beat{\r\n\tto { -webkit-transform: scale(1.2); transform: scale(1.2); }\r\n}\r\n@keyframes beat{\r\n\tto { -webkit-transform: scale(1.2); transform: scale(1.2); }\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcGFnZXMvYWJvdXQvYWJvdXQuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTs7SUFFSSwrQ0FBdUM7O1lBQXZDLHVDQUF1QztDQUMxQyxnQ0FBd0I7U0FBeEIsd0JBQXdCO0FBQ3pCO0FBQ0E7Q0FDQyxLQUFLLDZCQUFxQixFQUFyQixxQkFBcUIsRUFBRTtBQUM3QjtBQUZBO0NBQ0MsS0FBSyw2QkFBcUIsRUFBckIscUJBQXFCLEVBQUU7QUFDN0IiLCJmaWxlIjoic3JjL2FwcC9wYWdlcy9hYm91dC9hYm91dC5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLmJlYXRpbmctYnRuMntcclxuXHJcbiAgICBhbmltYXRpb246IGJlYXQgLjY1cyBpbmZpbml0ZSBhbHRlcm5hdGU7XHJcblx0dHJhbnNmb3JtLW9yaWdpbjogY2VudGVyO1xyXG59XHJcbkBrZXlmcmFtZXMgYmVhdHtcclxuXHR0byB7IHRyYW5zZm9ybTogc2NhbGUoMS4yKTsgfVxyXG59Il19 */"
+
+/***/ }),
+
+/***/ "./src/app/pages/about/about.component.html":
+/*!**************************************************!*\
+  !*** ./src/app/pages/about/about.component.html ***!
+  \**************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<!-- ABOUT\n    ================================================== -->\n<section class=\"section bg-light\" id=\"about\">\n    <div class=\"container\">\n        <div class=\"row \">\n            \n            <div class=\"col-lg-6\">\n            <H1>ASHDAGSDJASGDASDJ</H1>\n            </div>\n\n            <div class=\"col-lg-6 \">\n                <div class=\"about-content\">\n                    <h2 class=\"display-5\">\n                        Nos enfocamos en que la experiencia de usuario sea fluida, agradable e intuitiva.\n                    </h2>\n                    <p> Desde la etapa de diseño hasta la ultima linea de codigo hombro a hombro con nuestros clientes\n                        para que el resultado sea siempre el deseado.</p>\n\n\n                    <p>¿Tenes dudas ? <a href=\"#\">Contactate con nosotros</a></p>\n                </div>\n            </div>\n        </div>\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row mt-5 align-items-center \">\n            <div class=\"col-lg-6 col-md-6\">\n                <div class=\"about-content-2 \">\n                    <h2 class=\"display-5\">\n                        Usamos las mejores tecnologias en cada uno de nuestros trabajos\n                    </h2>\n                    <p> Diseñamos y desarrollamos webs completamente responsive para que tu sitio se vea genial en\n                        cualquier dispositivo</p>\n\n                    <a href=\"#\" class=\"btn btn-primary beating-btn2\">Servicios</a>\n                </div>\n                 \n             \n\n        </div>\n    </div>\n</section>"
+
+/***/ }),
+
+/***/ "./src/app/pages/about/about.component.ts":
+/*!************************************************!*\
+  !*** ./src/app/pages/about/about.component.ts ***!
+  \************************************************/
+/*! exports provided: AboutComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AboutComponent", function() { return AboutComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+
+
+var AboutComponent = /** @class */ (function () {
+    function AboutComponent() {
+    }
+    AboutComponent.prototype.ngOnInit = function () {
+    };
+    AboutComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+            selector: 'app-about',
+            template: __webpack_require__(/*! ./about.component.html */ "./src/app/pages/about/about.component.html"),
+            styles: [__webpack_require__(/*! ./about.component.css */ "./src/app/pages/about/about.component.css")]
+        }),
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [])
+    ], AboutComponent);
+    return AboutComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/pages/banner/banner.component.css":
+/*!***************************************************!*\
+  !*** ./src/app/pages/banner/banner.component.css ***!
+  \***************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "\r\n\r\n.beating-btn{\r\n\r\n    -webkit-animation: beat .45s infinite alternate;\r\n\r\n            animation: beat .45s infinite alternate;\r\n\t-webkit-transform-origin: center;\r\n\t        transform-origin: center;\r\n}\r\n@-webkit-keyframes beat{\r\n\tto { -webkit-transform: scale(1.4); transform: scale(1.4); }\r\n}\r\n@keyframes beat{\r\n\tto { -webkit-transform: scale(1.4); transform: scale(1.4); }\r\n}\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcGFnZXMvYmFubmVyL2Jhbm5lci5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7O0FBRUE7O0lBRUksK0NBQXVDOztZQUF2Qyx1Q0FBdUM7Q0FDMUMsZ0NBQXdCO1NBQXhCLHdCQUF3QjtBQUN6QjtBQUNBO0NBQ0MsS0FBSyw2QkFBcUIsRUFBckIscUJBQXFCLEVBQUU7QUFDN0I7QUFGQTtDQUNDLEtBQUssNkJBQXFCLEVBQXJCLHFCQUFxQixFQUFFO0FBQzdCIiwiZmlsZSI6InNyYy9hcHAvcGFnZXMvYmFubmVyL2Jhbm5lci5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiXHJcblxyXG4uYmVhdGluZy1idG57XHJcblxyXG4gICAgYW5pbWF0aW9uOiBiZWF0IC40NXMgaW5maW5pdGUgYWx0ZXJuYXRlO1xyXG5cdHRyYW5zZm9ybS1vcmlnaW46IGNlbnRlcjtcclxufVxyXG5Aa2V5ZnJhbWVzIGJlYXR7XHJcblx0dG8geyB0cmFuc2Zvcm06IHNjYWxlKDEuNCk7IH1cclxufVxyXG4iXX0= */"
+
+/***/ }),
+
+/***/ "./src/app/pages/banner/banner.component.html":
+/*!****************************************************!*\
+  !*** ./src/app/pages/banner/banner.component.html ***!
+  \****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<section class=\"section section-top section-full\">\n\n    <!-- Cover -->\n    <div class=\"bg-cover\" style=\"background-image: url(assets/img/12.jpg);\"></div>\n\n    <!-- Overlay -->\n    <div class=\"bg-overlay\"></div>\n    <!-- Content -->\n    <div class=\"container\">\n        <div class=\"row justify-content-center align-items-center\">\n            <div class=\"col-md-10 col-lg-7 \">\n                <div class=\"banner-content\">\n                    <!-- Preheading -->\n\n                    <!-- Heading -->\n                    <h1 class=\"text-white text-center mb-4 display-4 font-weight-bold\">\n                        Necesitas una web? <br> Nosotros te ayudamos!\n                    </h1>\n\n                    <!-- Subheading -->\n                    <p class=\"lead text-white text-center mb-5\">\n                      Con mas de 3 años de experiencia en desarollo y diseño web podemos llevar tu idea o negocio a la red\n                    </p>\n\n                    <!-- Button -->\n                    <p class=\"text-center mb-0\" >\n                        <a href=\"#\" target=\"_blank\" class=\"btn btn-primary beating-btn\">\n                            Contactanos\n                        </a>\n                    </p>\n                </div>\n            </div>\n        </div>\n        <!-- / .row -->\n    </div>\n    <!-- / .container -->\n</section>\n"
+
+/***/ }),
+
+/***/ "./src/app/pages/banner/banner.component.ts":
+/*!**************************************************!*\
+  !*** ./src/app/pages/banner/banner.component.ts ***!
+  \**************************************************/
+/*! exports provided: BannerComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "BannerComponent", function() { return BannerComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+
+
+var BannerComponent = /** @class */ (function () {
+    function BannerComponent() {
+    }
+    BannerComponent.prototype.ngOnInit = function () {
+    };
+    BannerComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+            selector: 'app-banner',
+            template: __webpack_require__(/*! ./banner.component.html */ "./src/app/pages/banner/banner.component.html"),
+            styles: [__webpack_require__(/*! ./banner.component.css */ "./src/app/pages/banner/banner.component.css")]
+        }),
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [])
+    ], BannerComponent);
+    return BannerComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/pages/contact/contact.component.css":
+/*!*****************************************************!*\
+  !*** ./src/app/pages/contact/contact.component.css ***!
+  \*****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL3BhZ2VzL2NvbnRhY3QvY29udGFjdC5jb21wb25lbnQuY3NzIn0= */"
+
+/***/ }),
+
+/***/ "./src/app/pages/contact/contact.component.html":
+/*!******************************************************!*\
+  !*** ./src/app/pages/contact/contact.component.html ***!
+  \******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = " <!-- Contact\n    ================================================== -->\n    <section class=\"section\" id=\"contact\">\n        <div class=\"container\">\n            <div class=\"row justify-content-center mb-4\">\n                <div class=\"col-md-8 col-lg-8 text-center\">\n\n                    <!-- Heading -->\n                    <h2 class=\"lg-title mb-2\">\n                        Tenes alguna duda?\n                    </h2>\n\n                    <!-- Subheading -->\n                    <p class=\"mb-5\">\n                        Escribinos.\n                    </p>\n\n                </div>\n            </div> \n            <!-- / .row -->\n\n\n            <div class=\"row justify-content-center\">\n                <div class=\"col-lg-8\">\n                    <form action=\"mail.php\" method=\"post\" id=\"main_contact_form\" class=\"contact__form\">\n                        <!-- form message -->\n                            <div class=\"row\">\n                                <div class=\"col-12\">\n                                    <div class=\"alert alert-success contact__msg\" style=\"display: none\" role=\"alert\">\n                                        mensage enviado!.\n                                    </div>\n                                </div>\n                            </div>\n                            <!-- end message -->\n                            \n                        <div class=\"row\">\n                            <div class=\"col-lg-6\">\n                                <div class=\"form-group\">\n                                    <input type=\"text\" name=\"name\" id=\"name\" class=\"form-control\" placeholder=\"Tu nombre\">\n                                </div>\n                            </div>\n                            <div class=\"col-lg-6\">\n                                <div class=\"form-group\">\n                                    <input type=\"text\" name=\"email\" id=\"email\" class=\"form-control\" placeholder=\"Tu Email *\" required=\"required\">\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"row\">\n                            <div class=\"col-lg-12\">\n                                <div class=\"form-group\">\n                                    <input type=\"text\" name=\"subject\" id=\"subject\" class=\"form-control\" placeholder=\"Motivo del mensaje *\" required=\"required\">\n                                </div>\n                            </div>\n                            <div class=\"col-lg-12\">\n                                <div class=\"form-group\">\n                                    <textarea name=\"message\" id=\"message\" cols=\"30\" rows=\"6\" class=\"form-control\" placeholder=\"Escribi tu mensaje\" required=\"required\" ></textarea>\n                                </div>\n                            </div>\n\n                            <div class=\"col-lg-12\">\n                                <div class=\"submit text-center\">\n                                    <input name=\"submit\" type=\"submit\" class=\"btn btn-primary btn-lg\" value=\"ENVIAR\">\n                                    <p class=\"pt-3\"></p>\n                                </div>\n                            </div>\n                        </div>\n                    </form>\n                </div>\n            </div>\n        </div>\n    </section>\n\n\n"
+
+/***/ }),
+
+/***/ "./src/app/pages/contact/contact.component.ts":
+/*!****************************************************!*\
+  !*** ./src/app/pages/contact/contact.component.ts ***!
+  \****************************************************/
+/*! exports provided: ContactComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ContactComponent", function() { return ContactComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+
+
+var ContactComponent = /** @class */ (function () {
+    function ContactComponent() {
+    }
+    ContactComponent.prototype.ngOnInit = function () {
+    };
+    ContactComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+            selector: 'app-contact',
+            template: __webpack_require__(/*! ./contact.component.html */ "./src/app/pages/contact/contact.component.html"),
+            styles: [__webpack_require__(/*! ./contact.component.css */ "./src/app/pages/contact/contact.component.css")]
+        }),
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [])
+    ], ContactComponent);
+    return ContactComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/pages/services/services.component.css":
+/*!*******************************************************!*\
+  !*** ./src/app/pages/services/services.component.css ***!
+  \*******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL3BhZ2VzL3NlcnZpY2VzL3NlcnZpY2VzLmNvbXBvbmVudC5jc3MifQ== */"
+
+/***/ }),
+
+/***/ "./src/app/pages/services/services.component.html":
+/*!********************************************************!*\
+  !*** ./src/app/pages/services/services.component.html ***!
+  \********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = " <!-- SERVICES\n    ================================================== -->\n    <section class=\"section\" id=\"service\">\n        <!-- Content -->\n        <div class=\"container\">\n            <div class=\"row justify-content-center mb-4\">\n                <div class=\"col-md-8 col-lg-7 text-center\">\n\n                    <!-- Heading -->\n                    <h2 class=\"lg-title mb-2\">\n                        Nuestros Servicios\n                    </h2>\n\n                    <!-- Subheading -->\n                    <p class=\"mb-5\">\n                        Industry Leading Managed Services and Staffing Solutions\n                    </p>\n\n                </div>\n            </div>\n            <!-- / .row -->\n\n\n            <div class=\"row\">\n                <div class=\"col-lg-4 col-sm-6 col-md-6 mb-4 \">\n                    <div class=\"service-block d-flex\">\n                        <div class=\"service-icon \">\n                            <i class=\"fa fa-laptop\"></i>\n                        </div>\n                        <div class=\"service-content \">\n                            <h4><span>HTML</span> web template</h4>\n                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. asperiores rem voluptas nobis.</p>\n                        </div>\n                    </div>\n                </div>\n                <div class=\"col-lg-4 col-sm-6 col-md-6 mb-4\">\n                    <div class=\"service-block d-flex\">\n                        <div class=\"service-icon\">\n                            <i class=\"fa fa-code\"></i>\n                        </div>\n                        <div class=\"service-content\">\n                            <h4><span>Wordpress</span> theme Conversion</h4>\n                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. asperiores rem voluptas nobis.</p>\n                        </div>\n                    </div>\n                </div>\n                <div class=\"col-lg-4 col-sm-6 col-md-6 mb-4\">\n                    <div class=\"service-block d-flex\">\n                        <div class=\"service-icon\">\n                            <i class=\"fa fa-leaf\"></i>\n                        </div>\n                        <div class=\"service-content\">\n                            <h4><span>PSD</span> web template</h4>\n                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. asperiores rem voluptas nobis.</p>\n                        </div>\n                    </div>\n                </div>\n\n                <div class=\"col-lg-4 col-sm-6 col-md-6 mb-4\">\n                    <div class=\"service-block d-flex\">\n                        <div class=\"service-icon\">\n                            <i class=\"fa fa-cogs\"></i>\n                        </div>\n                        <div class=\"service-content\">\n                            <h4>Wordpress <span> Theme Installation</span> </h4>\n                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. asperiores rem voluptas nobis.</p>\n                        </div>\n                    </div>\n                </div>\n                <div class=\"col-lg-4 col-sm-6 col-md-6 mb-4\">\n                    <div class=\"service-block d-flex\">\n                        <div class=\"service-icon\">\n                            <i class=\"fa fa-bug\"></i>\n                        </div>\n                        <div class=\"service-content\">\n                            <h4>Html Css <span>BUG Fixing</span></h4>\n                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. asperiores rem voluptas nobis.</p>\n                        </div>\n                    </div>\n                </div>\n\n                <div class=\"col-lg-4 col-sm-6 col-md-6 mb-4\">\n                    <div class=\"service-block d-flex\">\n                        <div class=\"service-icon\">\n                            <i class=\"fa fa-shield-alt\"></i>\n                        </div>\n                        <div class=\"service-content\">\n                            <h4>24 Hours <span>Dedicated Support </span></h4>\n                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. asperiores rem voluptas nobis.</p>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </section>\n"
+
+/***/ }),
+
+/***/ "./src/app/pages/services/services.component.ts":
+/*!******************************************************!*\
+  !*** ./src/app/pages/services/services.component.ts ***!
+  \******************************************************/
+/*! exports provided: ServicesComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ServicesComponent", function() { return ServicesComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+
+
+var ServicesComponent = /** @class */ (function () {
+    function ServicesComponent() {
+    }
+    ServicesComponent.prototype.ngOnInit = function () {
+    };
+    ServicesComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+            selector: 'app-services',
+            template: __webpack_require__(/*! ./services.component.html */ "./src/app/pages/services/services.component.html"),
+            styles: [__webpack_require__(/*! ./services.component.css */ "./src/app/pages/services/services.component.css")]
+        }),
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [])
+    ], ServicesComponent);
+    return ServicesComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/shared/footer/footer.component.css":
+/*!****************************************************!*\
+  !*** ./src/app/shared/footer/footer.component.css ***!
+  \****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL3NoYXJlZC9mb290ZXIvZm9vdGVyLmNvbXBvbmVudC5jc3MifQ== */"
+
+/***/ }),
+
+/***/ "./src/app/shared/footer/footer.component.html":
+/*!*****************************************************!*\
+  !*** ./src/app/shared/footer/footer.component.html ***!
+  \*****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "\n    <!-- FOOTER\n    ================================================== -->\n    <footer class=\"top-padding bg-dark\">\n        <!--Content -->\n        <div class=\"container\">\n            <div class=\"row align-self-center\">\n                <div class=\"col-lg-4 col-md-6\">\n                    <div class=\"footer-widget\">\n                        <!-- Brand -->\n                        <a href=\"#\" class=\"footer-brand text-white\">\n                          MoleWeb\n                        </a>\n                        <p>In expedita sapiente cumque enim dicta similique, animi adipisci quia et quo quod numquam, veniam eligendi reprehenderit .</p>\n                    </div>\n                </div>\n\n                <div class=\"col-lg-2 ml-lg-auto col-md-2\">\n\n                    <!-- Links -->\n                    <ul class=\"footer-link list-unstyled ml-0 justify-content-end\">\n                        <li>\n                            <a href=\"#\" class=\"text-white\">\n                                Servicios\n                            </a>\n                        </li>\n                        <li>\n                            <a href=\"#\" class=\"text-white\">\n                                Portfolio\n                            </a>\n                        </li>\n                        <li>\n                            <a href=\"#\" class=\"text-white\">\n                                Comodín\n                            </a>\n                        </li>\n                    </ul>\n                </div>\n                <div class=\"col-lg-3 col-md-4\">\n\n                    <!-- Links -->\n                    <ul class=\"footer-link list-unstyled ml-0 justify-content-end\">\n                        <li>\n                            <i class=\"fa fa-mobile\"></i> +362-4023276\n                        </li>\n                        <li>\n                            <i class=\"fa fa-location-arrow\"></i> Resistencia , Chaco , Argentina\n                        </li>\n                        <li>\n                            <i class=\"fa fa-globe\"></i> www.moleweb.com\n                        </li>\n                    </ul>\n                </div>\n            </div>\n            <!-- / .row -->\n\n            <div class=\"row justify-content-md-center footer-copy\">\n                <div class=\"col-lg-8 col-md-6 col-sm-6 text-center\">\n                    <p class=\"lead text-white-50\">&copy; Copyright Reserved to MoleWeb | Design and Developed by xtianmarucco </p>\n                </div>\n            </div>\n        </div>\n        <!-- / .container -->\n    </footer>"
+
+/***/ }),
+
+/***/ "./src/app/shared/footer/footer.component.ts":
+/*!***************************************************!*\
+  !*** ./src/app/shared/footer/footer.component.ts ***!
+  \***************************************************/
+/*! exports provided: FooterComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FooterComponent", function() { return FooterComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+
+
+var FooterComponent = /** @class */ (function () {
+    function FooterComponent() {
+    }
+    FooterComponent.prototype.ngOnInit = function () {
+    };
+    FooterComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+            selector: 'app-footer',
+            template: __webpack_require__(/*! ./footer.component.html */ "./src/app/shared/footer/footer.component.html"),
+            styles: [__webpack_require__(/*! ./footer.component.css */ "./src/app/shared/footer/footer.component.css")]
+        }),
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [])
+    ], FooterComponent);
+    return FooterComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/shared/header/header.component.css":
+/*!****************************************************!*\
+  !*** ./src/app/shared/header/header.component.css ***!
+  \****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL3NoYXJlZC9oZWFkZXIvaGVhZGVyLmNvbXBvbmVudC5jc3MifQ== */"
+
+/***/ }),
+
+/***/ "./src/app/shared/header/header.component.html":
+/*!*****************************************************!*\
+  !*** ./src/app/shared/header/header.component.html ***!
+  \*****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<!-- NAVBAR\n    ================================================= -->\n    <nav class=\"navbar navbar-expand-lg navbar-dark navbar-togglable  fixed-top \" id=\"mainNav\">\n      <div class=\"container\">\n\n          <!-- Brand -->\n          <a class=\"navbar-brand js-scroll-trigger\" href=\"#page-top\">\n              <h2>MoleWeb</h2>\n          </a>\n\n          <!-- Toggler -->\n          <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarCollapse\" aria-controls=\"navbarCollapse\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n              <span class=\"navbar-toggler-icon-bar\">\n                  <i class=\"fa fa-bars\"></i>\n              </span>\n          </button>\n\n          <!-- Collapse -->\n          <div class=\"collapse navbar-collapse\" id=\"navbarCollapse\">\n              <!-- Links -->\n              <ul class=\"navbar-nav ml-auto\">\n                  <li class=\"nav-item\">\n                      <a class=\"nav-link js-scroll-trigger\" href=\"#page-top\">\n                          Home\n                      </a>\n                  </li>\n                  <li class=\"nav-item\">\n                      <a class=\"nav-link js-scroll-trigger\" href=\"#about\">\n                          About\n                      </a>\n                  </li>\n                  <li class=\"nav-item\">\n                      <a class=\"nav-link js-scroll-trigger\" href=\"#service\">\n                          Services\n                      </a>\n                  </li>\n                  <li class=\"nav-item\">\n                      <a class=\"nav-link js-scroll-trigger\" href=\"#portfolio\">\n                          Portfolio\n                      </a>\n                  </li>\n                  <li class=\"nav-item \">\n                      <a class=\"nav-link js-scroll-trigger\" href=\"#contact\">\n                          Contact\n                      </a>\n                  </li>\n              </ul>\n          </div>\n          <!-- / .navbar-collapse -->\n      </div>\n      <!-- / .container -->\n  </nav>\n"
+
+/***/ }),
+
+/***/ "./src/app/shared/header/header.component.ts":
+/*!***************************************************!*\
+  !*** ./src/app/shared/header/header.component.ts ***!
+  \***************************************************/
+/*! exports provided: HeaderComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HeaderComponent", function() { return HeaderComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+
+
+var HeaderComponent = /** @class */ (function () {
+    function HeaderComponent() {
+    }
+    HeaderComponent.prototype.ngOnInit = function () {
+    };
+    HeaderComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+            selector: 'app-header',
+            template: __webpack_require__(/*! ./header.component.html */ "./src/app/shared/header/header.component.html"),
+            styles: [__webpack_require__(/*! ./header.component.css */ "./src/app/shared/header/header.component.css")]
+        }),
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [])
+    ], HeaderComponent);
+    return HeaderComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/environments/environment.ts":
+/*!*****************************************!*\
+  !*** ./src/environments/environment.ts ***!
+  \*****************************************/
+/*! exports provided: environment */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "environment", function() { return environment; });
+// This file can be replaced during build by using the `fileReplacements` array.
+// `ng build --prod` replaces `environment.ts` with `environment.prod.ts`.
+// The list of file replacements can be found in `angular.json`.
+var environment = {
+    production: false
+};
+/*
+ * For easier debugging in development mode, you can import the following file
+ * to ignore zone related error stack frames such as `zone.run`, `zoneDelegate.invokeTask`.
+ *
+ * This import should be commented out in production mode because it will have a negative impact
+ * on performance if an error is thrown.
+ */
+// import 'zone.js/dist/zone-error';  // Included with Angular CLI.
+
+
+/***/ }),
+
+/***/ "./src/main.ts":
+/*!*********************!*\
+  !*** ./src/main.ts ***!
+  \*********************/
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/platform-browser-dynamic */ "./node_modules/@angular/platform-browser-dynamic/fesm5/platform-browser-dynamic.js");
+/* harmony import */ var _app_app_module__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./app/app.module */ "./src/app/app.module.ts");
+/* harmony import */ var _environments_environment__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./environments/environment */ "./src/environments/environment.ts");
+
+
+
+
+if (_environments_environment__WEBPACK_IMPORTED_MODULE_3__["environment"].production) {
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["enableProdMode"])();
+}
+Object(_angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_1__["platformBrowserDynamic"])().bootstrapModule(_app_app_module__WEBPACK_IMPORTED_MODULE_2__["AppModule"])
+    .catch(function (err) { return console.error(err); });
+
+
+/***/ }),
+
+/***/ 0:
+/*!************************************************************************************!*\
+  !*** multi (webpack)-dev-server/client?http://0.0.0.0:0/sockjs-node ./src/main.ts ***!
+  \************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(/*! C:\Users\Christian\proyectos-angular\moleweb\node_modules\webpack-dev-server\client\index.js?http://0.0.0.0:0/sockjs-node */"./node_modules/webpack-dev-server/client/index.js?http://0.0.0.0:0/sockjs-node");
+module.exports = __webpack_require__(/*! C:\Users\Christian\proyectos-angular\moleweb\src\main.ts */"./src/main.ts");
+
+
+/***/ })
+
+},[[0,"runtime","vendor"]]]);
+//# sourceMappingURL=main.js.map

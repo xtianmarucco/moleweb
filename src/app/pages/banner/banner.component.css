@@ -1,0 +1,10 @@
+
+
+.beating-btn{
+
+    animation: beat .45s infinite alternate;
+	transform-origin: center;
+}
+@keyframes beat{
+	to { transform: scale(1.4); }
+}

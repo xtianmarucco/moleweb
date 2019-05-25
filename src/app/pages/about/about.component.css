@@ -1,0 +1,8 @@
+.beating-btn2{
+
+    animation: beat .65s infinite alternate;
+	transform-origin: center;
+}
+@keyframes beat{
+	to { transform: scale(1.2); }
+}
