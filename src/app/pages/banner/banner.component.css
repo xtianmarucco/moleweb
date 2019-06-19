@@ -8,3 +8,14 @@
 @keyframes beat{
 	to { transform: scale(1.4); }
 }
+ @keyframes slideUp {
+ 
+	to {transform: translateY(0)}
+ from{ transform: translateY(250px)}
+
+ }
+
+ #title-animation{
+
+	animation: slideUp 1s ;
+ }
